@@ -1,0 +1,2 @@
+E:\Programming\Projects in C#\WPF_INSTALL_APP\NoGui\bin\Release\net8.0\publish\win-x64\NoGui.pdb
+E:\Programming\Projects in C#\WPF_INSTALL_APP\NoGui\bin\Release\net8.0\publish\win-x64\NoGui.exe

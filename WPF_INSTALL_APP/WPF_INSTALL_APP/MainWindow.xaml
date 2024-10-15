@@ -1,0 +1,398 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_INSTALL_APP"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        x:Class="WPF_INSTALL_APP.MainWindow"
+        Style="{StaticResource MaterialDesignWindow}"
+        mc:Ignorable="d"
+        Title="Installing application" Height="750" Width="1000"
+        ResizeMode="NoResize"
+        Background="#293133">
+
+    <Grid>
+
+        <Rectangle x:Name="rectangle" HorizontalAlignment="Left" Height="704" Margin="10,0,0,0" VerticalAlignment="Center" Width="195" Fill="#FF181C1D" RadiusX="15" RadiusY="15"/>
+        <Canvas Margin="20,33,805,669">
+            <Button x:Name="SelectPage_Messenger" Content="Messenger" MaxWidth="200" VerticalAlignment="Center" Width="175" HorizontalAlignment="Left" Click="SelectPage_Messenger_Click"/>
+        </Canvas>
+        <Canvas Margin="20,71,805,631">
+            <Button x:Name="SelectPage_Browsers" Content="Browsers" MaxWidth="200" VerticalAlignment="Top" Width="175" HorizontalAlignment="Center" Click="SelectPage_Browsers_Click" IsEnabled="True"/>
+        </Canvas>
+        <Canvas Margin="20,108,805,594">
+            <Button x:Name="SelectPage_Text_Editors" Content="Text Editors" MaxWidth="200" VerticalAlignment="Top" Width="175" HorizontalAlignment="Left" Click="SelectPage_Text_Editors_Click" IsEnabled="True"/>
+        </Canvas>
+        <Canvas Margin="20,145,805,557">
+            <Button x:Name="SelectPage_Music" Content="Music" MaxWidth="200" VerticalAlignment="Top" Width="175" HorizontalAlignment="Left" IsEnabled="True" Click="SelectPage_Music_Click"/>
+        </Canvas>
+        <Canvas Margin="20,182,805,520">
+            <Button x:Name="SelectPage_Nvidia" Content="NVIDIA" MaxWidth="200" VerticalAlignment="Top" Width="175" HorizontalAlignment="Center" Click="SelectPage_Nvidia_Click" IsEnabled="True"/>
+        </Canvas>
+        <Canvas Margin="20,219,805,483">
+            <Button x:Name="SelectPage_Utilities" Content="Utilities" MaxWidth="200" VerticalAlignment="Top" Width="175" HorizontalAlignment="Left" IsEnabled="True" Click="SelectPage_Utilities_Click"/>
+        </Canvas>
+        <Canvas Margin="20,256,805,446">
+            <Button x:Name="SelectPage_VPN" Content="Vpn" MaxWidth="200" VerticalAlignment="Top" Width="175" HorizontalAlignment="Left" IsEnabled="True" Click="SelectPage_VPN_Click"/>
+        </Canvas>
+        <Canvas Margin="20,553,805,149">
+            <Button x:Name="Install_App" Content="Install" MaxWidth="200" VerticalAlignment="Top" Width="175" HorizontalAlignment="Left" IsEnabled="True" Click="Install_App_Click"/>
+        </Canvas>
+        <Canvas Margin="20,590,805,112">
+            <Button x:Name="Check" Content="Check All" MaxWidth="200" VerticalAlignment="Top" Width="175" HorizontalAlignment="Left" IsEnabled="True" Click="Check_Click"/>
+        </Canvas>
+        <Canvas Margin="20,627,805,75">
+            <Button x:Name="Activate" Content="Activate Windows" MaxWidth="200" VerticalAlignment="Top" Width="175" HorizontalAlignment="Left" IsEnabled="True" Click="Activate_Click"/>
+        </Canvas>
+        <Canvas Margin="20,664,805,38">
+            <Button x:Name="Open_Settings" Content="Settings" MaxWidth="200" VerticalAlignment="Center" Width="175" HorizontalAlignment="Center" IsEnabled="True" Background="#FF673AB7" Click="Open_Settings_Click"/>
+        </Canvas>
+
+        <Canvas x:Name="Convas_Page" Margin="210,0,0,0">
+            <!--Messenger-->
+            <Grid x:Name="Page_Messenger" Height="734" Width="790" HorizontalAlignment="Left" VerticalAlignment="Center" Opacity="100">
+                <Label Content="Messenger" HorizontalAlignment="Left" Margin="319,0,0,0" VerticalAlignment="Top" FontSize="24" Foreground="#E5FFFFFF" Height="43" Opacity="1" IsEnabled="False"/>
+                <CheckBox x:Name="Install_Zoom" Content="Zoom" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Discord" Content="Discord" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_AyuGram" Content="AyuGram" HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_TeamSpeakClient3" Content="TeamSpeak" HorizontalAlignment="Left" Margin="10,138,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Telegram" Content="Telegram" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+            </Grid>
+            <!--Browsers-->
+            <Grid x:Name="Page_Browsers" Height="734" Width="790" HorizontalAlignment="Left" VerticalAlignment="Center" Opacity="0">
+                <Label Content="Browsers" HorizontalAlignment="Left" Margin="333,0,0,0" VerticalAlignment="Top" FontSize="24" Foreground="#E5FFFFFF" Height="43"/>
+                <CheckBox x:Name="Install_MozillaFirefox" Content="MozilaFireFox" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_GoogleChrome" Content="GoogleChrome" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_OperaGX" Content="OperaGX" HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Yandex" Content="Yandex" HorizontalAlignment="Left" Margin="10,138,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_DuckDuckGo" Content="DuckDuckGo" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Brave" Content="Brave" HorizontalAlignment="Left" Margin="10,192,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Vivaldi" Content="Vivaldi" HorizontalAlignment="Left" Margin="10,219,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Waterfox" Content="Waterfox" HorizontalAlignment="Left" Margin="10,246,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Opera" Content="Opera" HorizontalAlignment="Left" Margin="10,273,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_LibreWolf" Content="LibreWolf" HorizontalAlignment="Left" Margin="10,300,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+            </Grid>
+            <!--Text Editors-->
+            <Grid x:Name="Page_Text_Editors" Height="734" Width="790" HorizontalAlignment="Left" VerticalAlignment="Center" Opacity="0">
+                <Label Content="Text Editors" HorizontalAlignment="Left" Margin="314,0,0,0" VerticalAlignment="Top" FontSize="24" Foreground="#E5FFFFFF" Height="43"/>
+                <CheckBox x:Name="Install_NotepadPlusPlus" Content="Notepad++" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_MicrosoftVisualStudio" Content="MicrasoftVisualStudio" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Atom" Content="Atom" HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Typora" Content="Typora" HorizontalAlignment="Left" Margin="10,138,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_LibreOffice" Content="LibreOffice" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Simplenote" Content="Simplenote" HorizontalAlignment="Left" Margin="10,192,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+            </Grid>
+            <!--Music-->
+            <Grid x:Name="Page_Music" Height="734" Width="790" HorizontalAlignment="Left" VerticalAlignment="Center" Opacity="0">
+                <Label Content="Music" HorizontalAlignment="Left" Margin="351,0,0,0" VerticalAlignment="Top" FontSize="24" Foreground="#E5FFFFFF" Height="43"/>
+                <CheckBox x:Name="Install_Spotify" Content="Spotify" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_VLCmediaplayer" Content="VLCmediaplayer" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_YandexMusic" Content="YandexMusic" HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+            </Grid>
+            <!--NVIDIA-->
+            <Grid x:Name="Page_NVIDIA" Height="734" Width="790" HorizontalAlignment="Left" VerticalAlignment="Center" Opacity="0">
+                <Label Content="NVIDIA" HorizontalAlignment="Left" Margin="341,0,0,0" VerticalAlignment="Top" FontSize="24" Foreground="#E5FFFFFF" Height="43"/>
+                <CheckBox x:Name="Install_NVIDIABroadcast" Content="NVIDIABroadcast" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_NVIDIAGeForceNOW" Content="NVIDIAGeForceNow" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_NVIDIARTXVoice" Content="NVIDIARTXVoice" HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_NVIDIAGeForceExperience" Content="NVIDIAGeForceExperience" HorizontalAlignment="Left" Margin="10,138,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+            </Grid>
+            <!--utilities-->
+            <Grid x:Name="Page_utilities" Height="734" Width="790" HorizontalAlignment="Left" VerticalAlignment="Center" Opacity="0">
+                <Label Content="Utilities" HorizontalAlignment="Left" Margin="341,0,0,0" VerticalAlignment="Top" FontSize="24" Foreground="#E5FFFFFF" Height="43"/>
+                <CheckBox x:Name="Install_DDU" Content="Display Driver Uninstaller" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_NVCleanstall" Content="NVCleanstall" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_CPU_Z" Content="CPU-Z" HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_HWMonitor" Content="HWMonitor" HorizontalAlignment="Left" Margin="10,138,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_MSI_Afterburner" Content="MSI Afterburner" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_AIDA64_Engineer" Content="AIDA64 Engineer" HorizontalAlignment="Left" Margin="10,192,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_AIDA64_Extreme" Content="AIDA64 Extreme" HorizontalAlignment="Left" Margin="10,219,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_BCUninstaller" Content="BCUninstaller" HorizontalAlignment="Left" Margin="10,246,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Stardock_Fences_4" Content="Stardock Fences 4" HorizontalAlignment="Left" Margin="10,273,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_GPU_Z" Content="GPU-Z" HorizontalAlignment="Left" Margin="10,300,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_CCleaner" Content="CCleaner" HorizontalAlignment="Left" Margin="10,327,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Glary_Utilities" Content="Glary Utilities" HorizontalAlignment="Left" Margin="10,354,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_rufus" Content="Rufus" HorizontalAlignment="Left" Margin="10,381,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_WizTree" Content="WizTree" HorizontalAlignment="Left" Margin="10,408,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+            </Grid>
+            <!--Vpn-->
+            <Grid x:Name="Page_Vpn" Height="734" Width="790" HorizontalAlignment="Left" VerticalAlignment="Center" Opacity="0">
+                <Label Content="Vpn" HorizontalAlignment="Left" Margin="345,0,0,0" VerticalAlignment="Top" FontSize="24" Foreground="#E5FFFFFF" Height="43"/>
+                <CheckBox x:Name="Install_OpenVPN" Content="OpenVPN" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Mullvad_VPN" Content="MullvadVPN" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_IVPN_Client" Content="IVPN Client" HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_ExpressVPN" Content="ExpressVPN" HorizontalAlignment="Left" Margin="10,138,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Eddie_VPN_Tunnel" Content="Eddie VPN Tunnel" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_LightyearVPN" Content="LightyearVPN" HorizontalAlignment="Left" Margin="10,192,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_VPNetwork" Content="VPNetwork" HorizontalAlignment="Left" Margin="10,219,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Mozilla_VPN" Content="Mozilla VPN" HorizontalAlignment="Left" Margin="10,246,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_hide_me_VPN" Content="hide.me VPN" HorizontalAlignment="Left" Margin="10,273,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_eduVPN_Client" Content="eduVPN Client" HorizontalAlignment="Left" Margin="10,300,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_AdGuardVPN" Content="AdGuardVPN" HorizontalAlignment="Left" Margin="10,327,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_TouchVPN" Content="TouchVPN" HorizontalAlignment="Left" Margin="10,354,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Tailscale" Content="Tailscale" HorizontalAlignment="Left" Margin="10,381,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_SonicWall_NetExtender" Content="SonicWall NetExtender" HorizontalAlignment="Left" Margin="10,408,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Viscosity" Content="Viscosity" HorizontalAlignment="Left" Margin="10,435,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Private_Internet_Access" Content="Private Internet Access" HorizontalAlignment="Left" Margin="10,462,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_LogMeIn_Hamachi" Content="LogMeIn Hamachi" HorizontalAlignment="Left" Margin="10,489,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Cloudflare_WARP" Content="Cloudflare WARP" HorizontalAlignment="Left" Margin="10,516,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Malwarebytes_Privacy" Content="Malwarebytes Privacy" HorizontalAlignment="Left" Margin="10,543,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_WireGuard" Content="WireGuard" HorizontalAlignment="Left" Margin="10,570,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+                <CheckBox x:Name="Install_Surfshark" Content="Surfshark" HorizontalAlignment="Left" Margin="10,597,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="#FF553096" Background="#FF6237AF" IsChecked="False">
+                    <CheckBox.LayoutTransform>
+                        <ScaleTransform ScaleX="1.5" ScaleY="1.5" />
+                    </CheckBox.LayoutTransform>
+                </CheckBox>
+            </Grid>
+        </Canvas>
+    </Grid>
+</Window>

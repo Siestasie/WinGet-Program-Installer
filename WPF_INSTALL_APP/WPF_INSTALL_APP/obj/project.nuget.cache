@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "lB/za8NzVec=",
+  "success": true,
+  "projectFilePath": "E:\\Programming\\Projects in C#\\WPF_INSTALL_APP\\WPF_INSTALL_APP\\WPF_INSTALL_APP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Siesta\\.nuget\\packages\\materialdesigncolors\\3.1.0\\materialdesigncolors.3.1.0.nupkg.sha512",
+    "C:\\Users\\Siesta\\.nuget\\packages\\materialdesignthemes\\5.1.0\\materialdesignthemes.5.1.0.nupkg.sha512",
+    "C:\\Users\\Siesta\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+  ],
+  "logs": []
+}
