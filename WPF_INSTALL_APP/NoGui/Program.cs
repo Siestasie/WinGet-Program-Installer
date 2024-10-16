@@ -9,19 +9,26 @@ namespace NoGui
     {
         static void Main(string[] args)
         {
-            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Command.txt");
-            string command = File.ReadAllText(filePath);
+            try
+            {
+                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Command.txt");
+                string command = File.ReadAllText(filePath);
 
-            Console.WriteLine(command);
+                Console.WriteLine(command);
 
-            Process process = new Process();
-            process.StartInfo.FileName = "powershell.exe"; // Указываем путь к PowerShell
-            process.StartInfo.Arguments = $"{command}"; // Аргументы командной строки
-            process.StartInfo.RedirectStandardOutput = false; // Перенаправляем стандартный вывод
-            process.StartInfo.UseShellExecute = true; // Не используем оболочку
-            process.StartInfo.CreateNoWindow = false; // Не показываем окно
+                Process process = new Process();
+                process.StartInfo.FileName = "powershell.exe"; // Указываем путь к PowerShell
+                process.StartInfo.Arguments = $"{command}"; // Аргументы командной строки
+                process.StartInfo.RedirectStandardOutput = false; // Перенаправляем стандартный вывод
+                process.StartInfo.UseShellExecute = true; // Не используем оболочку
+                process.StartInfo.CreateNoWindow = false; // Не показываем окно
 
-            process.Start();
+                process.Start();
+            }
+            catch 
+            {
+                MessageBox.Show("Файл Command.txt не найден", "Файл не найден");
+            }
         }
     }
 }

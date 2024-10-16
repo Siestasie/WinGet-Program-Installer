@@ -23,7 +23,6 @@ namespace WPF_INSTALL_APP
 
             for (int i = 0; i < SelectedPackages.Count(); i++)
             {
-                //Console.WriteLine(SelectedPackages[i]);
                 sb.Append(Packages.Package[SelectedPackages[i]]).Append(" ; ");
             }
             string command = sb.ToString();

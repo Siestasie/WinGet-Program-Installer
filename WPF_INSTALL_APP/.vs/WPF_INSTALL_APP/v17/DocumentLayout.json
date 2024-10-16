@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\Programming\\Projects in C#\\WPF_INSTALL_APP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D95A18B-1461-4DB3-8020-91D93031C0AA}|WPF_INSTALL_APP\\WPF_INSTALL_APP.csproj|e:\\programming\\projects in c#\\wpf_install_app\\wpf_install_app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D95A18B-1461-4DB3-8020-91D93031C0AA}|WPF_INSTALL_APP\\WPF_INSTALL_APP.csproj|solutionrelative:wpf_install_app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3856210C-1859-435E-A31C-28B9B65D64E0}|NoGui\\NoGui.csproj|e:\\programming\\projects in c#\\wpf_install_app\\nogui\\nogui.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3856210C-1859-435E-A31C-28B9B65D64E0}|NoGui\\NoGui.csproj|solutionrelative:nogui\\nogui.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3856210C-1859-435E-A31C-28B9B65D64E0}|NoGui\\NoGui.csproj|e:\\programming\\projects in c#\\wpf_install_app\\nogui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3856210C-1859-435E-A31C-28B9B65D64E0}|NoGui\\NoGui.csproj|solutionrelative:nogui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3856210C-1859-435E-A31C-28B9B65D64E0}|NoGui\\NoGui.csproj|e:\\programming\\projects in c#\\wpf_install_app\\nogui\\nogui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3856210C-1859-435E-A31C-28B9B65D64E0}|NoGui\\NoGui.csproj|solutionrelative:nogui\\nogui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{6D95A18B-1461-4DB3-8020-91D93031C0AA}|WPF_INSTALL_APP\\WPF_INSTALL_APP.csproj|e:\\programming\\projects in c#\\wpf_install_app\\wpf_install_app\\installationpackages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D95A18B-1461-4DB3-8020-91D93031C0AA}|WPF_INSTALL_APP\\WPF_INSTALL_APP.csproj|solutionrelative:wpf_install_app\\installationpackages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3856210C-1859-435E-A31C-28B9B65D64E0}|NoGui\\NoGui.csproj|e:\\programming\\projects in c#\\wpf_install_app\\nogui\\nogui.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{3856210C-1859-435E-A31C-28B9B65D64E0}|NoGui\\NoGui.csproj|solutionrelative:nogui\\nogui.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{6D95A18B-1461-4DB3-8020-91D93031C0AA}|WPF_INSTALL_APP\\WPF_INSTALL_APP.csproj|e:\\programming\\projects in c#\\wpf_install_app\\wpf_install_app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D95A18B-1461-4DB3-8020-91D93031C0AA}|WPF_INSTALL_APP\\WPF_INSTALL_APP.csproj|solutionrelative:wpf_install_app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D95A18B-1461-4DB3-8020-91D93031C0AA}|WPF_INSTALL_APP\\WPF_INSTALL_APP.csproj|e:\\programming\\projects in c#\\wpf_install_app\\wpf_install_app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -29,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6D95A18B-1461-4DB3-8020-91D93031C0AA}|WPF_INSTALL_APP\\WPF_INSTALL_APP.csproj|e:\\programming\\projects in c#\\wpf_install_app\\wpf_install_app\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6D95A18B-1461-4DB3-8020-91D93031C0AA}|WPF_INSTALL_APP\\WPF_INSTALL_APP.csproj|solutionrelative:wpf_install_app\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D95A18B-1461-4DB3-8020-91D93031C0AA}|WPF_INSTALL_APP\\WPF_INSTALL_APP.csproj|e:\\programming\\projects in c#\\wpf_install_app\\wpf_install_app\\installationpackages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D95A18B-1461-4DB3-8020-91D93031C0AA}|WPF_INSTALL_APP\\WPF_INSTALL_APP.csproj|solutionrelative:wpf_install_app\\installationpackages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D95A18B-1461-4DB3-8020-91D93031C0AA}|WPF_INSTALL_APP\\WPF_INSTALL_APP.csproj|e:\\programming\\projects in c#\\wpf_install_app\\wpf_install_app\\settingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -54,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 668,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,15 +58,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NoGui.csproj",
+              "DocumentIndex": 0,
+              "Title": "NoGui",
               "DocumentMoniker": "E:\\Programming\\Projects in C#\\WPF_INSTALL_APP\\NoGui\\NoGui.csproj",
               "RelativeDocumentMoniker": "NoGui\\NoGui.csproj",
               "ToolTip": "E:\\Programming\\Projects in C#\\WPF_INSTALL_APP\\NoGui\\NoGui.csproj",
               "RelativeToolTip": "NoGui\\NoGui.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-15T10:12:50.187Z"
+              "WhenOpened": "2024-10-16T13:32:31.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -80,36 +76,26 @@
               "RelativeDocumentMoniker": "NoGui\\Program.cs",
               "ToolTip": "E:\\Programming\\Projects in C#\\WPF_INSTALL_APP\\NoGui\\Program.cs",
               "RelativeToolTip": "NoGui\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T10:19:36.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NoGui",
-              "DocumentMoniker": "E:\\Programming\\Projects in C#\\WPF_INSTALL_APP\\NoGui\\NoGui.csproj",
-              "RelativeDocumentMoniker": "NoGui\\NoGui.csproj",
-              "ToolTip": "E:\\Programming\\Projects in C#\\WPF_INSTALL_APP\\NoGui\\NoGui.csproj",
-              "RelativeToolTip": "NoGui\\NoGui.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-15T10:12:51.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "WPF_INSTALL_APP",
               "DocumentMoniker": "E:\\Programming\\Projects in C#\\WPF_INSTALL_APP\\WPF_INSTALL_APP\\WPF_INSTALL_APP.csproj",
               "RelativeDocumentMoniker": "WPF_INSTALL_APP\\WPF_INSTALL_APP.csproj",
               "ToolTip": "E:\\Programming\\Projects in C#\\WPF_INSTALL_APP\\WPF_INSTALL_APP\\WPF_INSTALL_APP.csproj",
               "RelativeToolTip": "WPF_INSTALL_APP\\WPF_INSTALL_APP.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-14T12:16:33.543Z"
+              "WhenOpened": "2024-10-14T12:16:33.543Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Settings.settings",
               "DocumentMoniker": "E:\\Programming\\Projects in C#\\WPF_INSTALL_APP\\WPF_INSTALL_APP\\Properties\\Settings.settings",
               "RelativeDocumentMoniker": "WPF_INSTALL_APP\\Properties\\Settings.settings",
@@ -120,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "SettingWindow.xaml",
               "DocumentMoniker": "E:\\Programming\\Projects in C#\\WPF_INSTALL_APP\\WPF_INSTALL_APP\\SettingWindow.xaml",
               "RelativeDocumentMoniker": "WPF_INSTALL_APP\\SettingWindow.xaml",
@@ -131,15 +117,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "InstallationPackages.cs",
               "DocumentMoniker": "E:\\Programming\\Projects in C#\\WPF_INSTALL_APP\\WPF_INSTALL_APP\\InstallationPackages.cs",
               "RelativeDocumentMoniker": "WPF_INSTALL_APP\\InstallationPackages.cs",
-              "ToolTip": "E:\\Programming\\Projects in C#\\WPF_INSTALL_APP\\WPF_INSTALL_APP\\InstallationPackages.cs",
-              "RelativeToolTip": "WPF_INSTALL_APP\\InstallationPackages.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAcAAAAAAAAAA==",
+              "ToolTip": "E:\\Programming\\Projects in C#\\WPF_INSTALL_APP\\WPF_INSTALL_APP\\InstallationPackages.cs*",
+              "RelativeToolTip": "WPF_INSTALL_APP\\InstallationPackages.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T21:06:06.877Z"
+              "WhenOpened": "2024-10-10T21:06:06.877Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -185,8 +172,8 @@
       "FloatingWindowState": {
         "Id": "83575b52-9cfb-4670-967a-b6de9888f75f",
         "Display": 0,
-        "X": 292,
-        "Y": 367,
+        "X": 274,
+        "Y": 336,
         "Width": 1313,
         "Height": 480,
         "WindowState": 0
@@ -198,13 +185,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "E:\\Programming\\Projects in C#\\WPF_INSTALL_APP\\WPF_INSTALL_APP\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPF_INSTALL_APP\\MainWindow.xaml.cs",
               "ToolTip": "E:\\Programming\\Projects in C#\\WPF_INSTALL_APP\\WPF_INSTALL_APP\\MainWindow.xaml.cs",
               "RelativeToolTip": "WPF_INSTALL_APP\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAgwBUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T19:00:54.607Z",
               "EditorCaption": ""
