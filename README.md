@@ -9,7 +9,7 @@
 
 ## Создание своего списка для установки
 1. Перейдите на [Сайт](https://winget.run/)
-<p> <img style="left: 50px; top: 100px;" src="https://mini.s-shot.ru/1024x768/JPEG/1024/Z100/?https%3A%2F%2Fwinget.run%2F
+<p> <img src="https://mini.s-shot.ru/1024x768/JPEG/1024/Z100/?https%3A%2F%2Fwinget.run%2F
 "/>
 
 2.
