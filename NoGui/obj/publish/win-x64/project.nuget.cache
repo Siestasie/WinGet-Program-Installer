@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Am8MUzwA2AA=",
+  "success": true,
+  "projectFilePath": "E:\\Programming\\Projects in C#\\WPF_INSTALL_APP\\NoGui\\NoGui.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Siesta\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.8\\microsoft.net.illink.tasks.8.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

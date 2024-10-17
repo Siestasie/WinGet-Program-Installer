@@ -1,0 +1,14 @@
+E:\Programming\Projects in C#\WPF_INSTALL_APP\NoGui\bin\Release\net8.0-windows\NoGui.exe
+E:\Programming\Projects in C#\WPF_INSTALL_APP\NoGui\bin\Release\net8.0-windows\NoGui.deps.json
+E:\Programming\Projects in C#\WPF_INSTALL_APP\NoGui\bin\Release\net8.0-windows\NoGui.runtimeconfig.json
+E:\Programming\Projects in C#\WPF_INSTALL_APP\NoGui\bin\Release\net8.0-windows\NoGui.dll
+E:\Programming\Projects in C#\WPF_INSTALL_APP\NoGui\bin\Release\net8.0-windows\NoGui.pdb
+E:\Programming\Projects in C#\WPF_INSTALL_APP\NoGui\obj\Release\net8.0-windows\NoGui.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\Projects in C#\WPF_INSTALL_APP\NoGui\obj\Release\net8.0-windows\NoGui.AssemblyInfoInputs.cache
+E:\Programming\Projects in C#\WPF_INSTALL_APP\NoGui\obj\Release\net8.0-windows\NoGui.AssemblyInfo.cs
+E:\Programming\Projects in C#\WPF_INSTALL_APP\NoGui\obj\Release\net8.0-windows\NoGui.csproj.CoreCompileInputs.cache
+E:\Programming\Projects in C#\WPF_INSTALL_APP\NoGui\obj\Release\net8.0-windows\NoGui.dll
+E:\Programming\Projects in C#\WPF_INSTALL_APP\NoGui\obj\Release\net8.0-windows\refint\NoGui.dll
+E:\Programming\Projects in C#\WPF_INSTALL_APP\NoGui\obj\Release\net8.0-windows\NoGui.pdb
+E:\Programming\Projects in C#\WPF_INSTALL_APP\NoGui\obj\Release\net8.0-windows\NoGui.genruntimeconfig.cache
+E:\Programming\Projects in C#\WPF_INSTALL_APP\NoGui\obj\Release\net8.0-windows\ref\NoGui.dll
